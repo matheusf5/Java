@@ -13,4 +13,4 @@ Cada subpasta contém:
 - README explicativo
 - PDF com enunciados (quando aplicável)
 
-# 🚀 Em evolução contínua.
+ 🚀 Em evolução contínua.
