@@ -36,7 +36,7 @@ O exercício reforça a modelagem de classes e a separação entre:
 
 ## 📂 Estrutura do projeto
 
-- 📁 [`src`](./src) — Código-fonte Java
+- 📁 [`src`](./SRC) — Código-fonte Java
 - 📄 [`Problema.pdf`](./Problema.pdf) — Enunciado do exercício
 
 ---
