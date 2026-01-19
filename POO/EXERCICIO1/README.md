@@ -36,8 +36,8 @@ O exercício reforça a modelagem de classes e a separação entre:
 
 ## 📂 Estrutura do projeto
 
-- 📁 [`src`](Java/POO/EXERCICIO1/src) — Código-fonte Java
-- 📄 [`Problema.pdf`](Java/POO/EXERCICIO1/Problema.pdf) — Enunciado do exercício
+- 📁 [`src`](./src) — Código-fonte Java
+- 📄 [`Problema.pdf`](./Problema.pdf) — Enunciado do exercício
 
 ---
 
