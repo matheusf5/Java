@@ -42,6 +42,32 @@ Este projeto foi desenvolvido com foco em prática e consolidação dos seguinte
 
 ---
 
-## 🗂 Estrutura do Projeto
+## 🔜 Próximos Passos
+
+Evoluções planejadas para o projeto:
+
+- 🔄 Integração com banco de dados MySQL (JDBC)  
+- 🏗 Implementação do padrão DAO  
+- 📂 Persistência em arquivo  
+- 🧪 Tratamento de exceções personalizado  
+- 🌐 Evolução para API REST  
+
+---
+
+## 📚 Objetivo
+
+Este projeto foi criado com o objetivo de fortalecer a base em:
+
+- Estruturas de dados  
+- Organização de código  
+- Lógica de programação  
+- Preparação para backend com banco de dados  
+
+---
+
+## 👨‍💻 Autor
+
+Desenvolvido por **Matheus Felix**  
+Estudante de Análise e Desenvolvimento de Sistemas
 
 
