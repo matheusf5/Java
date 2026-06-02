@@ -1,37 +1,22 @@
-# Exercício - Enumeração e Composição (Worker)
+# Enumeração e Composição - Worker
 
-## 📌 Sobre o Projeto
+## 📖 Sobre o Projeto
 
-Este projeto foi desenvolvido em Java com o objetivo de praticar os conceitos de:
+Este projeto foi desenvolvido em Java como exercício de Programação Orientada a Objetos, com foco nos conceitos de **Enumeração (Enum)** e **Composição**.
 
-- Enumerações (Enum)
-- Composição entre classes
-- Listas (`ArrayList`)
-- Manipulação de datas
+O sistema realiza o cadastro de um trabalhador, seu departamento e seus contratos de trabalho por hora. Após o cadastro, o usuário informa um mês e um ano para que seja calculada a renda total do trabalhador naquele período.
+
+---
+
+## 🎯 Objetivos de Aprendizagem
+
+- Utilização de Enumerações (Enum)
+- Relacionamentos de Composição
 - Programação Orientada a Objetos (POO)
-
-O sistema realiza o cadastro de um trabalhador, seu departamento e seus contratos por hora. Após o cadastro, o usuário informa um mês e um ano para que o programa calcule a renda total do trabalhador naquele período.
-
----
-
-## 🔗 Repositório
-
-Acesse o projeto através do link:
-
-👉 https://github.com/matheusf5/Java/tree/main/EnumeracaoComposicao
-
----
-
-## 📖 Enunciado
-
-Ler os dados de um trabalhador com **N contratos** (N fornecido pelo usuário).
-
-Após o cadastro, solicitar um mês e um ano e mostrar qual foi o salário do funcionário nesse período.
-
-O cálculo da renda deve considerar:
-
-- Salário base do trabalhador.
-- Soma dos valores de todos os contratos realizados no mês informado.
+- Manipulação de Listas com ArrayList
+- Encapsulamento
+- Manipulação de Datas
+- Organização de Classes em Pacotes
 
 ---
 
@@ -42,52 +27,67 @@ O cálculo da renda deve considerar:
 Representa o departamento ao qual o trabalhador pertence.
 
 **Atributos:**
-
-- `name`
-
----
+- name
 
 ### Worker
 
-Representa o trabalhador.
+Representa um trabalhador da empresa.
 
 **Atributos:**
-
-- `name`
-- `level`
-- `baseSalary`
-- `department`
-- `contracts`
+- name
+- level
+- baseSalary
+- department
+- contracts
 
 **Métodos:**
-
-- `addContract()`
-- `removeContract()`
-- `income()`
-
----
+- addContract()
+- removeContract()
+- income()
 
 ### HourContract
 
-Representa um contrato por hora.
+Representa um contrato de trabalho por hora.
 
 **Atributos:**
+- date
+- valuePerHour
+- hours
 
-- `date`
-- `valuePerHour`
-- `hours`
+**Métodos:**
+- totalValue()
 
-**Método:**
+### WorkerLevel
 
-- `totalValue()`
-
----
-
-### WorkerLevel (Enum)
-
-Níveis possíveis do trabalhador:
+Enumeração responsável pelos níveis do trabalhador:
 
 ```java
 JUNIOR
 MID_LEVEL
 SENIOR
+```
+
+---
+
+## ⚙️ Funcionamento
+
+1. O usuário informa o departamento.
+2. O usuário cadastra os dados do trabalhador.
+3. O usuário informa a quantidade de contratos.
+4. Os contratos são cadastrados.
+5. O usuário informa o mês e ano desejados.
+6. O sistema calcula a renda total do trabalhador naquele período.
+
+---
+
+## 📂 Repositório
+
+https://github.com/matheusf5/Java/tree/main/EnumeracaoComposicao
+
+---
+
+## 👨‍💻 Autor
+
+Matheus Felix
+
+Projeto desenvolvido para fins acadêmicos e prática de Programação Orientada a Objetos em Java.
